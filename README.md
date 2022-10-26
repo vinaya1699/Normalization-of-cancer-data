@@ -22,7 +22,7 @@ library(matrixStats)
 
 z_score = (logcpm - rowMeans(logcpm))/rowSds(as.matrix(logcpm))[row(logcpm)]
 
-#Calculate variance using log 
+# Calculate variance using log 
 
 variance = apply(logcpm, 1, var)
 
@@ -32,7 +32,7 @@ top50 = variance[1:50]
 
 pmat = z_score[names(top50),]
 
-#Create a heatmap
+# Create a heatmap
 
 library(ComplexHeatmap)
 

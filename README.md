@@ -2,7 +2,7 @@
 data_file=read.csv("C:/Users/91973/Desktop/GSE149650_Read_counts.csv",sep=",",header=T,row.names = 1)
 
 # Create a count per matrix
-# Counts per million mapped reads (also known as CPM) is a basic gene expression unit that normalizes only for sequencing depth .
+#Counts per million mapped reads (also known as CPM) is a basic gene expression unit that normalizes only for sequencing depth .
 
 cpmatrix=data_file
 for(i in 1:ncol(data_file)){
@@ -37,3 +37,4 @@ pmat = z_score[names(top50),]
 library(ComplexHeatmap)
 
 Heatmap(pmat)
+![Heatmap](https://user-images.githubusercontent.com/110582335/197956414-265ff60c-1ce3-48b4-92bd-34dead63b887.jpeg)

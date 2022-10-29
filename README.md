@@ -10,7 +10,7 @@ for(i in 1:ncol(data_file)){
 }
 
 # To Calculate a log of cpm
-# Log pf CPM removes genes that are lowly expressed
+# Log of CPM removes genes that are lowly expressed
 logcpm=log2(cpmatrix+1)
 saveRDS(logcpm,file="logCPM.rds")
 summary(logcpm)

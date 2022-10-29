@@ -41,4 +41,4 @@ Heatmap(pmat)
 
 # Interpretation of heatmap :- 
 Darker the shade of a cell in a heatmap represent the highly expressive nature of a gene .
-For e.g . In 
+For e.g . In sample HT1080_WT_p4 , ENSG00000162496 and ENSG00000115414 are the highly expressed genes .

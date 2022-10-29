@@ -38,3 +38,7 @@ library(ComplexHeatmap)
 
 Heatmap(pmat)
 ![Heatmap](https://user-images.githubusercontent.com/110582335/197956414-265ff60c-1ce3-48b4-92bd-34dead63b887.jpeg)
+
+# Interpretation of heatmap :- 
+Darker the shade of a cell in a heatmap represent the highly expressive nature of a gene .
+For e.g . In 

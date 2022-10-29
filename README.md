@@ -15,8 +15,8 @@ logcpm=log2(cpmatrix+1)
 saveRDS(logcpm,file="logCPM.rds")
 summary(logcpm)
 
-# Calculate a z score 
-# Z score indicates how many standard deviations a value is above or below the mean.
+# Calculate a z-score 
+# Z-score indicates how many standard deviations of a value are above or below the mean.
 
 library(matrixStats)
 
